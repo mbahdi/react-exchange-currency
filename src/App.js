@@ -150,8 +150,8 @@ class App extends Component {
                         <td style={{width:'80%'}}>
                         <Card className="border-0">
                           <CardTitle className="row pb-1">
-                            <Col sm={2}>{tcode}</Col>
-                            <Col sm={4} className="text-right">
+                            <Col sm={2} xs={4}>{tcode}</Col>
+                            <Col sm={10} xs={8} className="text-right">
                               <NumberFormat value={tratetot} thousandSeparator={','} displayType={'text'}  prefix={''} fixedDecimalScale={true} decimalSeparator={'.'} decimalScale={2} />
                             </Col>
                           </CardTitle>
