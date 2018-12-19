@@ -26,13 +26,10 @@ You will also see any lint errors in the console.
 ## `docker-compose`
 
 ```
-docker-compose build web
+docker-compose up --build -d
 ```
-Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, we can start the container with:
+Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, you can:
 
-```
-docker-compose up web
-```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
