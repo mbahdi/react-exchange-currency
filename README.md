@@ -28,9 +28,9 @@ You will also see any lint errors in the console.
 ```
 docker-compose up --build -d
 ```
-Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, you can:
+Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, you can open:
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Learn More
