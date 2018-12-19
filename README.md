@@ -6,7 +6,6 @@ Clone this project with:
 
 ```
 git clone https://github.com/mbahdi/react-exchange-currency.git
-
 ```
 
 After clone process done, you can run:
@@ -16,7 +15,6 @@ After clone process done, you can run:
 ```
 npm install
 npm start
-
 ```
 
 Runs the app in the development mode.<br>
@@ -29,21 +27,22 @@ You will also see any lint errors in the console.
 
 ```
 docker-compose up --build
-
 ```
 Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, we can start the container with:
 
 ```
 docker-compose up web
-
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 ## Learn More
 
-You can learn more react concept in the [Main Concepts](https://reactjs.org/docs/hello-world.html).
+You can learn more about react concept in the [React Main Concepts](https://reactjs.org/docs/hello-world.html).
+
 
 ## Exchange Api
 
 You can explore more about exchange api in the [Foreign exchange rates API](https://exchangeratesapi.io/)
+
+
