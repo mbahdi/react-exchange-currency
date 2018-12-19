@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 ## `docker-compose`
 
 ```
-docker-compose up --build
+docker-compose build web
 ```
 Docker will going to fetch the necessary assets to build our virtual container and then compile them. Once finished, we can start the container with:
 
