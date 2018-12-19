@@ -1,14 +1,16 @@
-version: '3.4'
+version: '3.5'
 
 services:
-  web:
+
+  currency-app:
+    container_name: currency-app
     build:
       context: .
       dockerfile: Dockerfile
-    environment:
-      - NODE_ENV=production
-    command: npm start
-    ports:
-      - 3000:3000
     volumes:
-      - .:/app
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
